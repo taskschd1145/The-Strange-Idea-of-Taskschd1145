@@ -7,9 +7,13 @@
     "customModelName": "Tool",
     "customProperties": {},
     "states": [],
-    "name": "Flamethrower",
+    "name": "Taskschd1145自用喷火枪",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TSIOT"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 100,

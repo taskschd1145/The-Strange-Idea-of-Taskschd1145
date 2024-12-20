@@ -89,11 +89,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nyfirework_nouse",
+      "registry_name": "nyfirework",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/nyfirework_nouse.json",
-          "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/NYFIREWORKItem.java"
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/NYFIREWORKItem.java",
+          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/nyfirework.json"
         ]
       }
     },
@@ -114,11 +114,85 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "taskschd_1145_selfuse_eight_hand_spitfire_gun",
+      "registry_name": "old_flamethrower",
       "metadata": {
         "files": [
           "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/Taskschd1145SelfuseEightHandSpitfireGunItem.java",
-          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/taskschd_1145_selfuse_eight_hand_spitfire_gun.json"
+          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/old_flamethrower.json"
+        ]
+      }
+    },
+    {
+      "name": "Flamethrower",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamethrower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/flamethrower.json",
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/FlamethrowerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nyfireworkwork",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyfireworkwork",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_strange_idea_of_taskschd1145/recipe/nyfireworkwork.json"
+        ]
+      }
+    },
+    {
+      "name": "Intaste",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intaste",
+      "metadata": {
+        "files": [
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/IntasteItem.java",
+          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/intaste.json"
+        ]
+      }
+    },
+    {
+      "name": "IknowthetasteoftheNewYearachievement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iknowthetasteofthe_new_yearachievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_strange_idea_of_taskschd1145/advancement/iknowthetasteofthe_new_yearachievement.json"
+        ]
+      }
+    },
+    {
+      "name": "Oldguntonewgun",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldguntonewgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_strange_idea_of_taskschd1145/recipe/oldguntonewgun.json"
+        ]
+      }
+    },
+    {
+      "name": "Newguntointaste",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newguntointaste",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_strange_idea_of_taskschd1145/recipe/newguntointaste.json"
         ]
       }
     }
@@ -127,6 +201,8 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Intaste",
+      "~CUSTOM:Flamethrower",
       "~CUSTOM:Taskschd1145SelfuseEightHandSpitfireGun"
     ]
   },
@@ -134,16 +210,20 @@
   "language_map": {
     "en_us": {
       "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd 1 1 4 5",
-      "item.the_strange_idea_of_taskschd1145.taskschd_1145_selfuse_eight_hand_spitfire_gun": "Taskschd1145自用八手喷火枪",
+      "advancements.iknowthetasteofthe_new_yearachievement.descr": "获得年味",
+      "item.the_strange_idea_of_taskschd1145.nyfirework": "年味喷火子弹",
       "advancements.tsio_tachievement.descr": "Taskschd1145的奇怪想法",
-      "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
       "advancements.tsio_tachievement.title": "Taskschd1145的奇怪想法",
       "advancements.mechaniclbowachievement.title": "机 关 弓",
       "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.title": "Taskschd1145的头像",
+      "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法",
+      "item.the_strange_idea_of_taskschd1145.intaste": "年味",
+      "item.the_strange_idea_of_taskschd1145.flamethrower": "Taskschd1145自用喷火枪",
+      "item.the_strange_idea_of_taskschd1145.old_flamethrower": "Taskschd1145自用战损版喷火枪",
+      "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
       "item.the_strange_idea_of_taskschd1145.mechanicalbow": "机关弓",
       "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145",
-      "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法",
-      "item.the_strange_idea_of_taskschd1145.nyfirework_nouse": "NYFIREWORK"
+      "advancements.iknowthetasteofthe_new_yearachievement.title": "年味的味道我知道！"
     }
   },
   "foldersRoot": {
@@ -154,15 +234,18 @@
     "modid": "the_strange_idea_of_taskschd1145",
     "modName": "The Strange Idea of Taskschd1145",
     "version": "1.0.0",
-    "author": "User, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "description": "A Minecraft1.21.1 Mod that incorporates my bizarre ideas",
+    "author": "Taskschd1145",
+    "websiteURL": "https://taskschd.us.kg",
     "license": "Not specified",
     "serverSideOnly": false,
+    "modPicture": "avatar",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "taskschd1145.thestrangeideaoftaskschd"
   },
   "mcreatorVersion": 202400342716

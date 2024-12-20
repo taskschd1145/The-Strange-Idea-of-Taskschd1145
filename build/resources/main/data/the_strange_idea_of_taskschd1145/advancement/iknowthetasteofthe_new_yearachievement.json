@@ -16,13 +16,19 @@
   },
   "criteria": {
     "iknowthetasteofthe_new_yearachievement_0": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": {
-          "items": [
-            "the_strange_idea_of_taskschd1145:intaste"
-          ]
-        }
+        "items": [
+          {
+            "items": [
+              "the_strange_idea_of_taskschd1145:intaste"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
       }
     }
   },
