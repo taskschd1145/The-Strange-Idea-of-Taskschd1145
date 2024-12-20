@@ -1,5 +1,8 @@
 package taskschd1145.thestrangeideaoftaskschd;
 
+import taskschd1145.thestrangeideaoftaskschd.init.TheStrangeIdeaOfTaskschd1145ModTabs;
+import taskschd1145.thestrangeideaoftaskschd.init.TheStrangeIdeaOfTaskschd1145ModItems;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -35,6 +38,10 @@ public class TheStrangeIdeaOfTaskschd1145Mod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		TheStrangeIdeaOfTaskschd1145ModItems.REGISTRY.register(modEventBus);
+
+		TheStrangeIdeaOfTaskschd1145ModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

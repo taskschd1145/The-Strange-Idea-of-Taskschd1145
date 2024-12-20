@@ -1,0 +1,85 @@
+{
+  "mod_elements": [
+    {
+      "name": "Taskschd1145",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taskschd_1145",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/taskschd_1145.json",
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/Taskschd1145Item.java"
+        ]
+      }
+    },
+    {
+      "name": "TSIOT",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsiot",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Mechanicalbow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanicalbow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/mechanicalbow.json",
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/MechanicalbowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TSIOTachievement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsio_tachievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_strange_idea_of_taskschd1145/advancement/tsio_tachievement.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd 1 1 4 5",
+      "advancements.tsio_tachievement.descr": "Taskschd1145的奇怪想法",
+      "advancements.tsio_tachievement.title": "Taskschd1145的奇怪想法",
+      "item.the_strange_idea_of_taskschd1145.mechanicalbow": "机关弓",
+      "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_strange_idea_of_taskschd1145",
+    "modName": "The Strange Idea of Taskschd1145",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "taskschd1145.thestrangeideaoftaskschd"
+  },
+  "mcreatorVersion": 202400342716
+}
