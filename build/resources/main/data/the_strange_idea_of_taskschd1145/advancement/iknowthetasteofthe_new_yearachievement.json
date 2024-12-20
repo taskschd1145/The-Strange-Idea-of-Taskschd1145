@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_strange_idea_of_taskschd1145:intaste"
+    },
+    "title": {
+      "translate": "advancements.iknowthetasteofthe_new_yearachievement.title"
+    },
+    "description": {
+      "translate": "advancements.iknowthetasteofthe_new_yearachievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iknowthetasteofthe_new_yearachievement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "the_strange_idea_of_taskschd1145:intaste"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "the_strange_idea_of_taskschd1145:tsio_tachievement"
+}

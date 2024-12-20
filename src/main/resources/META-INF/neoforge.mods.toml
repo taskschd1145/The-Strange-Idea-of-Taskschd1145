@@ -6,9 +6,11 @@ license="Not specified"
 modId="the_strange_idea_of_taskschd1145"
 version="1.0.0"
 displayName="The Strange Idea of Taskschd1145"
-displayURL="https://mcreator.net"
+displayURL="https://taskschd.us.kg"
+logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="User, MCreator"
+authors="Taskschd1145"
+description="A Minecraft1.21.1 Mod that incorporates my bizarre ideas"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

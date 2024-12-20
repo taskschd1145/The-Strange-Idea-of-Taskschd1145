@@ -19,7 +19,7 @@ import net.minecraft.server.level.ServerLevel;
 
 public class IntasteItem extends Item {
 	public IntasteItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(500).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class IntasteItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
-		return 72000;
+		return 100;
 	}
 
 	@Override
@@ -53,6 +53,7 @@ public class IntasteItem extends Item {
 			ItemStack stack = findAmmo(player);
 			if (player.getAbilities().instabuild || stack != ItemStack.EMPTY) {
 				SpitfireGunbulletEntity projectile = SpitfireGunbulletEntity.shoot(world, entity, world.getRandom());
+				itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(entity.getUsedItemHand()));
 				if (player.getAbilities().instabuild) {
 					projectile.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
 				} else {
