@@ -2,6 +2,7 @@ package taskschd1145.thestrangeideaoftaskschd;
 
 import taskschd1145.thestrangeideaoftaskschd.init.TheStrangeIdeaOfTaskschd1145ModTabs;
 import taskschd1145.thestrangeideaoftaskschd.init.TheStrangeIdeaOfTaskschd1145ModItems;
+import taskschd1145.thestrangeideaoftaskschd.init.TheStrangeIdeaOfTaskschd1145ModEntities;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -40,7 +41,7 @@ public class TheStrangeIdeaOfTaskschd1145Mod {
 		modEventBus.addListener(this::registerNetworking);
 
 		TheStrangeIdeaOfTaskschd1145ModItems.REGISTRY.register(modEventBus);
-
+		TheStrangeIdeaOfTaskschd1145ModEntities.REGISTRY.register(modEventBus);
 		TheStrangeIdeaOfTaskschd1145ModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
