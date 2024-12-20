@@ -24,12 +24,17 @@ import net.minecraft.core.component.DataComponents;
 
 public class MechanicalbowItem extends Item {
 	public MechanicalbowItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
 		return UseAnim.BOW;
+	}
+
+	@Override
+	public int getEnchantmentValue() {
+		return 10;
 	}
 
 	@Override

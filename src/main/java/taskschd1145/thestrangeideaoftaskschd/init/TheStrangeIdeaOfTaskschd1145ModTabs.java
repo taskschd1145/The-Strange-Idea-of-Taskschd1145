@@ -20,7 +20,8 @@ public class TheStrangeIdeaOfTaskschd1145ModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.the_strange_idea_of_taskschd1145.tsiot")).icon(() -> new ItemStack(TheStrangeIdeaOfTaskschd1145ModItems.TASKSCHD_1145.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.MECHANICALBOW.get());
 				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.NYFIREWORK.get());
-				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.TASKSCHD_1145_SELFUSE_EIGHT_HAND_SPITFIRE_GUN.get());
+				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.OLD_FLAMETHROWER.get());
+				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.INTASTE.get());
 			})
 
 					.build());

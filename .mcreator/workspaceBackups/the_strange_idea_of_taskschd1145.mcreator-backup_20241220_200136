@@ -108,16 +108,34 @@
           "src/main/java/taskschd1145/thestrangeideaoftaskschd/entity/SpitfireGunbulletEntity.java"
         ]
       }
+    },
+    {
+      "name": "Taskschd1145SelfuseEightHandSpitfireGun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taskschd_1145_selfuse_eight_hand_spitfire_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/Taskschd1145SelfuseEightHandSpitfireGunItem.java",
+          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/taskschd_1145_selfuse_eight_hand_spitfire_gun.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Taskschd1145SelfuseEightHandSpitfireGun"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd 1 1 4 5",
-      "item.the_strange_idea_of_taskschd1145.nyfirework": "NYFIREWORK",
+      "item.the_strange_idea_of_taskschd1145.taskschd_1145_selfuse_eight_hand_spitfire_gun": "Taskschd1145自用八手喷火枪",
+      "item.the_strange_idea_of_taskschd1145.nyfirework": "年味喷火子弹",
       "advancements.tsio_tachievement.descr": "Taskschd1145的奇怪想法",
       "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
       "advancements.tsio_tachievement.title": "Taskschd1145的奇怪想法",

@@ -12,7 +12,7 @@
     "igniteFire": true,
     "power": 1.0,
     "damage": 5.0,
-    "knockback": 5,
+    "knockback": 1,
     "entityModel": "Default",
     "customModelTexture": "",
     "modelWidth": 0.5,

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:firework_rocket"
+    },
+    {
+      "item": "minecraft:firework_star"
+    }
+  ],
+  "result": {
+    "id": "the_strange_idea_of_taskschd1145:nyfirework",
+    "count": 1
+  }
+}

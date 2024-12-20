@@ -36,7 +36,7 @@
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 1,
     "enableRanged": true,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

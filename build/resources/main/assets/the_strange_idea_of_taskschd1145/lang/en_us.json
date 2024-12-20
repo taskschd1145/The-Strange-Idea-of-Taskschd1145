@@ -1,13 +1,15 @@
 {
   "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd 1 1 4 5",
-  "item.the_strange_idea_of_taskschd1145.taskschd_1145_selfuse_eight_hand_spitfire_gun": "Taskschd1145自用八手喷火枪",
-  "item.the_strange_idea_of_taskschd1145.nyfirework": "NYFIREWORK",
+  "item.the_strange_idea_of_taskschd1145.nyfirework": "年味喷火子弹",
   "advancements.tsio_tachievement.descr": "Taskschd1145的奇怪想法",
-  "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
   "advancements.tsio_tachievement.title": "Taskschd1145的奇怪想法",
   "advancements.mechaniclbowachievement.title": "机 关 弓",
   "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.title": "Taskschd1145的头像",
+  "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法",
+  "item.the_strange_idea_of_taskschd1145.intaste": "手持式年味",
+  "item.the_strange_idea_of_taskschd1145.flamethrower": "Flamethrower",
+  "item.the_strange_idea_of_taskschd1145.old_flamethrower": "Taskschd1145自用八手喷火枪",
+  "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
   "item.the_strange_idea_of_taskschd1145.mechanicalbow": "机关弓",
-  "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145",
-  "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法"
+  "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145"
 }

@@ -14,8 +14,8 @@
         "value": "CUSTOM:TSIOT"
       }
     ],
-    "stackSize": 64,
-    "enchantability": 0,
+    "stackSize": 1,
+    "enchantability": 10,
     "useDuration": 100,
     "toolType": 1.0,
     "damageCount": 0,
@@ -36,7 +36,7 @@
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 1,
     "enableRanged": true,
     "shootConstantly": true,
     "rangedItemChargesPower": false,
