@@ -1,4 +1,4 @@
-# Taskschd1145的奇妙想法
+# Taskschd1145的奇怪想法
 ## 这是什么？
 这是一个Minecraft1.21.1的NeoForge模组，
 里面有我平时想出来的稀奇古怪的东西。
