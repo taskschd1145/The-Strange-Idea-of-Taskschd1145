@@ -2,3 +2,12 @@
 /give @s the_strange_idea_of_taskschd1145:nyfirework_nouse 64
 /time set day
 /time set 0
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/kill
+/time set 0
+/weather clear
+/give Dev tsiot1145:talisman
+/give Dev tsiot1145:taskschd_1145

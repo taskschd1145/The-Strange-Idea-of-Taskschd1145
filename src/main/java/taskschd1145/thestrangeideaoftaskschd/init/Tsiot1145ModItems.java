@@ -26,7 +26,7 @@ public class Tsiot1145ModItems {
 	public static final DeferredItem<Item> OLD_FLAMETHROWER = REGISTRY.register("old_flamethrower", Taskschd1145SelfuseEightHandSpitfireGunItem::new);
 	public static final DeferredItem<Item> FLAMETHROWER = REGISTRY.register("flamethrower", FlamethrowerItem::new);
 	public static final DeferredItem<Item> INTASTE = REGISTRY.register("intaste", IntasteItem::new);
-	public static final DeferredItem<Item> TALISMANS = REGISTRY.register("talismans", TalismansItem::new);
+	public static final DeferredItem<Item> TALISMAN = REGISTRY.register("talisman", TalismansItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }

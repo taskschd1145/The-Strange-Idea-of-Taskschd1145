@@ -11,15 +11,15 @@ public class Talismans_mainProcedure {
 			return;
 		if (entity.isAlive()) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1000, 255));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 500, 255));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 1000, 255));
+				_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 500, 255));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 1000, 255));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 500, 255));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 1000, 255));
+				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 500, 255));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 1000, 255));
+				_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 500, 255));
 		}
 	}
 }

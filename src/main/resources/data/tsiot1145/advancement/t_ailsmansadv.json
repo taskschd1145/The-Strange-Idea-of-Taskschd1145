@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "tsiot1145:talisman"
+    },
+    "title": {
+      "translate": "advancements.t_ailsmansadv.title"
+    },
+    "description": {
+      "translate": "advancements.t_ailsmansadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "t_ailsmansadv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tsiot1145:talisman"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "tsiot1145:tsio_tachievement"
+}

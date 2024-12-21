@@ -11,14 +11,14 @@
       "item": "tsiot1145:mechanicalbow"
     },
     "b": {
-      "item": "tsiot1145:intaste"
+      "item": "minecraft:water_bucket"
     },
     "c": {
       "item": "minecraft:paper"
     }
   },
   "result": {
-    "id": "tsiot1145:intaste",
+    "id": "tsiot1145:talisman",
     "count": 1
   }
 }

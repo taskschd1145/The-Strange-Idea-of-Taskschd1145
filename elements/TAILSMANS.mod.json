@@ -15,32 +15,32 @@
         "value": "CUSTOM:Mechanicalbow"
       },
       {
-        "value": "CUSTOM:Intaste"
+        "value": "Items.WATER_BUCKET"
       },
       {
         "value": "CUSTOM:Mechanicalbow"
       },
       {
-        "value": "CUSTOM:Intaste"
+        "value": "Items.WATER_BUCKET"
       },
       {
         "value": "Items.PAPER"
       },
       {
-        "value": "CUSTOM:Intaste"
+        "value": "Items.WATER_BUCKET"
       },
       {
         "value": "CUSTOM:Mechanicalbow"
       },
       {
-        "value": "CUSTOM:Intaste"
+        "value": "Items.WATER_BUCKET"
       },
       {
         "value": "CUSTOM:Mechanicalbow"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Intaste"
+      "value": "CUSTOM:Talismans"
     },
     "name": "tailsmans",
     "namespace": "mod"

@@ -219,11 +219,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "talismans",
+      "registry_name": "talisman",
       "metadata": {
         "files": [
           "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/TalismansItem.java",
-          "src/main/resources/assets/tsiot1145/models/item/talismans.json"
+          "src/main/resources/assets/tsiot1145/models/item/talisman.json"
         ]
       }
     },
@@ -236,6 +236,18 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tsiot1145/recipe/tailsmans.json"
+        ]
+      }
+    },
+    {
+      "name": "TAilsmansadv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_ailsmansadv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tsiot1145/advancement/t_ailsmansadv.json"
         ]
       }
     }
@@ -252,33 +264,125 @@
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
+    "zh_tw": {
+      "item.tsiot1145.old_flamethrower": "Taskschd1145自用战损版喷火枪",
+      "advancements.mechaniclbowachievement.title": "机 关 弓",
+      "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.title": "Taskschd1145的头像",
+      "item.tsiot1145.flamethrower": "Taskschd1145自用喷火枪",
+      "item.tsiot1145.intaste": "年味",
+      "item.tsiot1145.talisman": "符咒",
+      "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法",
+      "item.tsiot1145.mechanicalbow": "机关弓",
+      "item.the_strange_idea_of_taskschd1145.intaste": "年味",
+      "item.the_strange_idea_of_taskschd1145.mechanicalbow": "机关弓",
+      "item_group.tsiot1145.tsiot": "Taskschd1145的奇怪想法",
+      "advancements.iknowthetasteofthe_new_yearachievement.title": "年味的味道我知道！",
+      "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd1145",
+      "advancements.iknowthetasteofthe_new_yearachievement.descr": "获得年味！",
+      "item.the_strange_idea_of_taskschd1145.nyfirework": "喷火子弹",
+      "painting.tsiot1145.taskschd_114514draw.title": "Taskschd1145的头像",
+      "painting.tsiot1145.taskschd_114514draw.author": "Taskschd1145",
+      "advancements.tsio_tachievement.descr": "Taskschd1145的奇怪想法",
+      "advancements.t_ailsmansadv.title": "定！",
+      "item.the_strange_idea_of_taskschd1145.talismans": "符咒",
+      "advancements.tsio_tachievement.title": "Taskschd1145的奇怪想法",
+      "item.tsiot1145.nyfirework": "喷火子弹",
+      "item.tsiot1145.taskschd_1145": "Taskschd1145",
+      "item.the_strange_idea_of_taskschd1145.flamethrower": "Taskschd1145自用喷火枪",
+      "item.the_strange_idea_of_taskschd1145.old_flamethrower": "Taskschd1145自用战损版喷火枪",
+      "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
+      "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145",
+      "advancements.t_ailsmansadv.descr": "获得符咒！"
+    },
+    "zh_hk": {
       "item.tsiot1145.old_flamethrower": "Taskschd1145自用战损版喷火枪",
       "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.title": "Taskschd1145的头像",
       "advancements.mechaniclbowachievement.title": "机 关 弓",
       "item.tsiot1145.flamethrower": "Taskschd1145自用喷火枪",
       "item.tsiot1145.intaste": "年味",
+      "item.tsiot1145.talisman": "符咒",
       "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法",
       "item.the_strange_idea_of_taskschd1145.intaste": "年味",
       "item.tsiot1145.mechanicalbow": "机关弓",
-      "item.tsiot1145.talismans": "符咒",
       "item.the_strange_idea_of_taskschd1145.mechanicalbow": "机关弓",
       "item_group.tsiot1145.tsiot": "Taskschd1145的奇怪想法",
       "advancements.iknowthetasteofthe_new_yearachievement.title": "年味的味道我知道！",
-      "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd 1 1 4 5",
-      "advancements.iknowthetasteofthe_new_yearachievement.descr": "获得年味",
-      "item.the_strange_idea_of_taskschd1145.nyfirework": "年味喷火子弹",
+      "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd1145",
+      "advancements.iknowthetasteofthe_new_yearachievement.descr": "获得年味！",
+      "item.the_strange_idea_of_taskschd1145.nyfirework": "喷火子弹",
       "painting.tsiot1145.taskschd_114514draw.title": "Taskschd1145的头像",
       "painting.tsiot1145.taskschd_114514draw.author": "Taskschd1145",
       "advancements.tsio_tachievement.descr": "Taskschd1145的奇怪想法",
+      "advancements.t_ailsmansadv.title": "定！",
       "item.the_strange_idea_of_taskschd1145.talismans": "符咒",
       "advancements.tsio_tachievement.title": "Taskschd1145的奇怪想法",
-      "item.tsiot1145.nyfirework": "年味喷火子弹",
-      "item.tsiot1145.taskschd_1145": "Taskschd 1 1 4 5",
+      "item.tsiot1145.nyfirework": "喷火子弹",
+      "item.tsiot1145.taskschd_1145": "Taskschd1145",
       "item.the_strange_idea_of_taskschd1145.flamethrower": "Taskschd1145自用喷火枪",
       "item.the_strange_idea_of_taskschd1145.old_flamethrower": "Taskschd1145自用战损版喷火枪",
       "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
-      "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145"
+      "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145",
+      "advancements.t_ailsmansadv.descr": "获得符咒！"
+    },
+    "en_us": {
+      "item.tsiot1145.old_flamethrower": "Old flamethrower from Taskschd1145",
+      "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.title": "Taskschd1145 profile picture",
+      "advancements.mechaniclbowachievement.title": "Mechanical bow",
+      "item.tsiot1145.flamethrower": "Flamethrower from Taskschd1145",
+      "item.tsiot1145.intaste": "Intaste",
+      "item.tsiot1145.talisman": "符咒",
+      "item_group.the_strange_idea_of_taskschd1145.tsiot": "The Strange Idea of Taskschd1145",
+      "item.the_strange_idea_of_taskschd1145.intaste": "Intaste",
+      "item.tsiot1145.mechanicalbow": "Mechanical bow",
+      "item.the_strange_idea_of_taskschd1145.mechanicalbow": "Mechanical bow",
+      "item_group.tsiot1145.tsiot": "The Strange Idea of Taskschd1145",
+      "advancements.iknowthetasteofthe_new_yearachievement.title": "Intaste!",
+      "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd1145",
+      "advancements.iknowthetasteofthe_new_yearachievement.descr": "Get a Intaste",
+      "item.the_strange_idea_of_taskschd1145.nyfirework": "Intaste Spitfire bullets",
+      "painting.tsiot1145.taskschd_114514draw.title": "Taskschd1145 profile picture",
+      "painting.tsiot1145.taskschd_114514draw.author": "Taskschd1145",
+      "advancements.tsio_tachievement.descr": "The Strange Idea of Taskschd1145",
+      "advancements.t_ailsmansadv.title": "Stop!",
+      "item.the_strange_idea_of_taskschd1145.talismans": "Talisman",
+      "advancements.tsio_tachievement.title": "The Strange Idea of Taskschd1145",
+      "item.tsiot1145.nyfirework": "Intaste Spitfire bullets",
+      "item.tsiot1145.taskschd_1145": "Taskschd1145",
+      "item.the_strange_idea_of_taskschd1145.flamethrower": "Flamethrower from Taskschd1145",
+      "item.the_strange_idea_of_taskschd1145.old_flamethrower": "Old flamethrower from Taskschd1145",
+      "advancements.mechaniclbowachievement.descr": "Automatic bow!",
+      "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145",
+      "advancements.t_ailsmansadv.descr": "Get a Talisman!"
+    },
+    "zh_cn": {
+      "item.tsiot1145.old_flamethrower": "Taskschd1145自用战损版喷火枪",
+      "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.title": "Taskschd1145的头像",
+      "advancements.mechaniclbowachievement.title": "机 关 弓",
+      "item.tsiot1145.flamethrower": "Taskschd1145自用喷火枪",
+      "item.tsiot1145.intaste": "年味",
+      "item.tsiot1145.talisman": "符咒",
+      "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法",
+      "item.the_strange_idea_of_taskschd1145.intaste": "年味",
+      "item.tsiot1145.mechanicalbow": "机关弓",
+      "item.the_strange_idea_of_taskschd1145.mechanicalbow": "机关弓",
+      "item_group.tsiot1145.tsiot": "Taskschd1145的奇怪想法",
+      "advancements.iknowthetasteofthe_new_yearachievement.title": "年味的味道我知道！",
+      "item.the_strange_idea_of_taskschd1145.taskschd_1145": "Taskschd1145",
+      "advancements.iknowthetasteofthe_new_yearachievement.descr": "获得年味！",
+      "item.the_strange_idea_of_taskschd1145.nyfirework": "喷火子弹",
+      "painting.tsiot1145.taskschd_114514draw.title": "Taskschd1145的头像",
+      "painting.tsiot1145.taskschd_114514draw.author": "Taskschd1145",
+      "advancements.tsio_tachievement.descr": "Taskschd1145的奇怪想法",
+      "advancements.t_ailsmansadv.title": "定！",
+      "item.the_strange_idea_of_taskschd1145.talismans": "符咒",
+      "advancements.tsio_tachievement.title": "Taskschd1145的奇怪想法",
+      "item.tsiot1145.nyfirework": "喷火子弹",
+      "item.tsiot1145.taskschd_1145": "Taskschd1145",
+      "item.the_strange_idea_of_taskschd1145.flamethrower": "Taskschd1145自用喷火枪",
+      "item.the_strange_idea_of_taskschd1145.old_flamethrower": "Taskschd1145自用战损版喷火枪",
+      "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
+      "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145",
+      "advancements.t_ailsmansadv.descr": "获得符咒！"
     }
   },
   "foldersRoot": {
@@ -300,7 +404,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "MCreator",
     "modElementsPackage": "taskschd1145.thestrangeideaoftaskschd"
   },
   "mcreatorVersion": 202400342716

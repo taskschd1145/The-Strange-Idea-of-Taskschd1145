@@ -23,7 +23,7 @@ public class Tsiot1145ModTabs {
 				tabData.accept(Tsiot1145ModItems.OLD_FLAMETHROWER.get());
 				tabData.accept(Tsiot1145ModItems.FLAMETHROWER.get());
 				tabData.accept(Tsiot1145ModItems.INTASTE.get());
-				tabData.accept(Tsiot1145ModItems.TALISMANS.get());
+				tabData.accept(Tsiot1145ModItems.TALISMAN.get());
 			})
 
 					.build());
