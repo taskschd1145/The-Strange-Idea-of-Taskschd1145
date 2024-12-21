@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:firework_rocket"
+    },
+    {
+      "item": "minecraft:firework_star"
+    }
+  ],
+  "result": {
+    "id": "tsiot1145:nyfirework",
+    "count": 1
+  }
+}

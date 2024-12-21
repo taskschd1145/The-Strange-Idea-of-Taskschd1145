@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="Not specified"
 
 [[mods]]
-modId="the_strange_idea_of_taskschd1145"
+modId="tsiot1145"
 version="1.0.0"
 displayName="The Strange Idea of Taskschd1145"
 displayURL="https://taskschd.us.kg"
@@ -15,14 +15,14 @@ description="A Minecraft1.21.1 Mod that incorporates my bizarre ideas"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.the_strange_idea_of_taskschd1145]]
+[[dependencies.tsiot1145]]
     modId="neoforge"
     type="required"
     versionRange="[21.1.65,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.the_strange_idea_of_taskschd1145]]
+[[dependencies.tsiot1145]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1]"

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "tsiot1145:mechanicalbow"
+    },
+    "b": {
+      "item": "tsiot1145:intaste"
+    },
+    "c": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "tsiot1145:intaste",
+    "count": 1
+  }
+}

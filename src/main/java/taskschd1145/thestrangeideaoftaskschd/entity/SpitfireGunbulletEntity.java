@@ -1,8 +1,8 @@
 
 package taskschd1145.thestrangeideaoftaskschd.entity;
 
-import taskschd1145.thestrangeideaoftaskschd.init.TheStrangeIdeaOfTaskschd1145ModItems;
-import taskschd1145.thestrangeideaoftaskschd.init.TheStrangeIdeaOfTaskschd1145ModEntities;
+import taskschd1145.thestrangeideaoftaskschd.init.Tsiot1145ModItems;
+import taskschd1145.thestrangeideaoftaskschd.init.Tsiot1145ModEntities;
 
 import net.neoforged.api.distmarker.OnlyIn;
 import net.neoforged.api.distmarker.Dist;
@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class SpitfireGunbulletEntity extends AbstractArrow implements ItemSupplier {
-	public static final ItemStack PROJECTILE_ITEM = new ItemStack(TheStrangeIdeaOfTaskschd1145ModItems.NYFIREWORK.get());
+	public static final ItemStack PROJECTILE_ITEM = new ItemStack(Tsiot1145ModItems.NYFIREWORK.get());
 	private int knockback = 0;
 
 	public SpitfireGunbulletEntity(EntityType<? extends SpitfireGunbulletEntity> type, Level world) {
@@ -48,7 +48,7 @@ public class SpitfireGunbulletEntity extends AbstractArrow implements ItemSuppli
 
 	@Override
 	protected ItemStack getDefaultPickupItem() {
-		return new ItemStack(TheStrangeIdeaOfTaskschd1145ModItems.NYFIREWORK.get());
+		return new ItemStack(Tsiot1145ModItems.NYFIREWORK.get());
 	}
 
 	@Override
@@ -88,7 +88,7 @@ public class SpitfireGunbulletEntity extends AbstractArrow implements ItemSuppli
 	}
 
 	public static SpitfireGunbulletEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
-		SpitfireGunbulletEntity entityarrow = new SpitfireGunbulletEntity(TheStrangeIdeaOfTaskschd1145ModEntities.SPITFIRE_GUNBULLET.get(), entity, world, null);
+		SpitfireGunbulletEntity entityarrow = new SpitfireGunbulletEntity(Tsiot1145ModEntities.SPITFIRE_GUNBULLET.get(), entity, world, null);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -101,7 +101,7 @@ public class SpitfireGunbulletEntity extends AbstractArrow implements ItemSuppli
 	}
 
 	public static SpitfireGunbulletEntity shoot(LivingEntity entity, LivingEntity target) {
-		SpitfireGunbulletEntity entityarrow = new SpitfireGunbulletEntity(TheStrangeIdeaOfTaskschd1145ModEntities.SPITFIRE_GUNBULLET.get(), entity, entity.level(), null);
+		SpitfireGunbulletEntity entityarrow = new SpitfireGunbulletEntity(Tsiot1145ModEntities.SPITFIRE_GUNBULLET.get(), entity, entity.level(), null);
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();

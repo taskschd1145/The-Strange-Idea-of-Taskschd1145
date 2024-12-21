@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "tsiot1145:old_flamethrower"
+    }
+  },
+  "result": {
+    "id": "tsiot1145:flamethrower",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "tsiot1145:mechanicalbow"
+    },
+    "b": {
+      "item": "tsiot1145:flamethrower"
+    }
+  },
+  "result": {
+    "id": "tsiot1145:intaste",
+    "count": 1
+  }
+}

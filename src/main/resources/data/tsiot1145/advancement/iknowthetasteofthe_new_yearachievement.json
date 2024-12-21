@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "tsiot1145:intaste"
+    },
+    "title": {
+      "translate": "advancements.iknowthetasteofthe_new_yearachievement.title"
+    },
+    "description": {
+      "translate": "advancements.iknowthetasteofthe_new_yearachievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iknowthetasteofthe_new_yearachievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tsiot1145:intaste"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tsiot1145:tsio_tachievement"
+}

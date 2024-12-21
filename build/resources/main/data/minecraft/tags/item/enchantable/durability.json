@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "the_strange_idea_of_taskschd1145:talismans",
-    "the_strange_idea_of_taskschd1145:intaste",
-    "the_strange_idea_of_taskschd1145:flamethrower",
-    "the_strange_idea_of_taskschd1145:old_flamethrower"
+    "tsiot1145:talismans",
+    "tsiot1145:intaste",
+    "tsiot1145:flamethrower",
+    "tsiot1145:old_flamethrower"
   ]
 }
