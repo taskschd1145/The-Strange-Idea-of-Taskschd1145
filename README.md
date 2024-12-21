@@ -1,4 +1,4 @@
-# The Strange Idea of- askschd1145
+# The Strange Idea of Taskschd1145
 [中文](README_cn.md)
 ## What is this?
 This is a NeoForge mod for Minecraft 1.21.1, 
