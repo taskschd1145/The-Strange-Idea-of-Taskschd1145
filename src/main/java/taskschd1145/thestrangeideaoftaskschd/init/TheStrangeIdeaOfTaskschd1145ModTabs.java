@@ -23,6 +23,7 @@ public class TheStrangeIdeaOfTaskschd1145ModTabs {
 				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.OLD_FLAMETHROWER.get());
 				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.FLAMETHROWER.get());
 				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.INTASTE.get());
+				tabData.accept(TheStrangeIdeaOfTaskschd1145ModItems.TALISMANS.get());
 			})
 
 					.build());

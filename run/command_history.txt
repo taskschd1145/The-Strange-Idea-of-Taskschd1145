@@ -1,3 +1,4 @@
 /give @s the_strange_idea_of_taskschd1145:nyfirework_nouse
 /give @s the_strange_idea_of_taskschd1145:nyfirework_nouse 64
 /time set day
+/time set 0

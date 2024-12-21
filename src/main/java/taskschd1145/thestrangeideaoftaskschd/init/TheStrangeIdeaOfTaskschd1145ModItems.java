@@ -6,6 +6,7 @@ package taskschd1145.thestrangeideaoftaskschd.init;
 
 import taskschd1145.thestrangeideaoftaskschd.item.Taskschd1145SelfuseEightHandSpitfireGunItem;
 import taskschd1145.thestrangeideaoftaskschd.item.Taskschd1145Item;
+import taskschd1145.thestrangeideaoftaskschd.item.TalismansItem;
 import taskschd1145.thestrangeideaoftaskschd.item.NYFIREWORKItem;
 import taskschd1145.thestrangeideaoftaskschd.item.MechanicalbowItem;
 import taskschd1145.thestrangeideaoftaskschd.item.IntasteItem;
@@ -25,6 +26,7 @@ public class TheStrangeIdeaOfTaskschd1145ModItems {
 	public static final DeferredItem<Item> OLD_FLAMETHROWER = REGISTRY.register("old_flamethrower", Taskschd1145SelfuseEightHandSpitfireGunItem::new);
 	public static final DeferredItem<Item> FLAMETHROWER = REGISTRY.register("flamethrower", FlamethrowerItem::new);
 	public static final DeferredItem<Item> INTASTE = REGISTRY.register("intaste", IntasteItem::new);
+	public static final DeferredItem<Item> TALISMANS = REGISTRY.register("talismans", TalismansItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }

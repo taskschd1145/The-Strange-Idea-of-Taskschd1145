@@ -171,12 +171,90 @@
           "src/main/resources/data/the_strange_idea_of_taskschd1145/advancement/iknowthetasteofthe_new_yearachievement.json"
         ]
       }
+    },
+    {
+      "name": "Oldguntonewgun",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldguntonewgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_strange_idea_of_taskschd1145/recipe/oldguntonewgun.json"
+        ]
+      }
+    },
+    {
+      "name": "Newguntointaste",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newguntointaste",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_strange_idea_of_taskschd1145/recipe/newguntointaste.json"
+        ]
+      }
+    },
+    {
+      "name": "Talismans_main",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talismans_main",
+      "metadata": {
+        "files": [
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/procedures/Talismans_mainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Talismans_ok",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talismans_ok",
+      "metadata": {
+        "files": [
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/procedures/Talismans_okProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Talismans",
+      "type": "item",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "talismans",
+      "metadata": {
+        "files": [
+          "src/main/java/taskschd1145/thestrangeideaoftaskschd/item/TalismansItem.java",
+          "src/main/resources/assets/the_strange_idea_of_taskschd1145/models/item/talismans.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Talismans",
       "~CUSTOM:Intaste",
       "~CUSTOM:Flamethrower",
       "~CUSTOM:Taskschd1145SelfuseEightHandSpitfireGun"
@@ -189,13 +267,14 @@
       "advancements.iknowthetasteofthe_new_yearachievement.descr": "获得年味",
       "item.the_strange_idea_of_taskschd1145.nyfirework": "年味喷火子弹",
       "advancements.tsio_tachievement.descr": "Taskschd1145的奇怪想法",
+      "item.the_strange_idea_of_taskschd1145.talismans": "符咒",
       "advancements.tsio_tachievement.title": "Taskschd1145的奇怪想法",
       "advancements.mechaniclbowachievement.title": "机 关 弓",
       "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.title": "Taskschd1145的头像",
       "item_group.the_strange_idea_of_taskschd1145.tsiot": "Taskschd1145的奇怪想法",
       "item.the_strange_idea_of_taskschd1145.intaste": "年味",
-      "item.the_strange_idea_of_taskschd1145.flamethrower": "Flamethrower",
-      "item.the_strange_idea_of_taskschd1145.old_flamethrower": "Taskschd1145自用八手喷火枪",
+      "item.the_strange_idea_of_taskschd1145.flamethrower": "Taskschd1145自用喷火枪",
+      "item.the_strange_idea_of_taskschd1145.old_flamethrower": "Taskschd1145自用战损版喷火枪",
       "advancements.mechaniclbowachievement.descr": "这是弓吗？如是！",
       "item.the_strange_idea_of_taskschd1145.mechanicalbow": "机关弓",
       "painting.the_strange_idea_of_taskschd1145.taskschd_114514draw.author": "Taskschd1145",
